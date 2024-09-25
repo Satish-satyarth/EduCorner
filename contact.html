@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        footer{
+            padding-top: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <!----------------header------------------------->
+
+    <header class="section-navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="./Image/EduLogo.png"
+              alt="EduCorner logo"
+              width="10%"
+              height="auto"
+            />
+          </a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"> about </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">services </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html"> blog </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="section-contact">
+      <div class="container">
+        <h2 class="section-common-heading">Contact Us</h2>
+        <p class="section-common-subheading">
+          Get touch with Us. We are always here to help you.
+        </p>
+      </div>
+
+      <div class="conatiner grid grid-two--cols mb-3">
+        <div class="contact-content">
+          <form action="#">
+            <div class="grid grid-two--cols">
+              <div>
+                <label for="username">Username</label>
+                <input
+                  type="text"
+                  name="username"
+                  required
+                  autocapitalize="off"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div>
+                <label for="email">Enter your email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                  required
+                  placeholder="educorner@gmail.com"
+                />
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                name="subject"
+                placeholder="Your main title"
+                id="subject"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="messgae">Message</label>
+              <textarea
+                name="messgae"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-submit">Send message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234700.90003037432!2d77.24107826768915!3d23.199323870937356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1727084383962!5m2!1sen!2sin"
+            width="90%"
+            height="450px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!--------------Footer section -------------------------->
+
+    <footer>
+      <div class="container grid grid-four--cols">
+        <div class="footer-1--div">
+          <div class="logo-brand">
+            <a href="index.html" class="footer-subheading">EduCorner EduHub</a>
+          </div>
+          <p>Let's revolutionize the way you study with EduCorner EduHub</p>
+
+          <div class="social-footer--icon">
+            <a
+              href="https://www.linkedin.com/in/satish-kumar-619164271/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/Satish-satyarth" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="www.EduCornerHub.com">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="www.EducornerHub.com">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-2--div">
+          <p class="footer-subheading">Company</p>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.html">Privacy Poilicy</a></li>
+            <li><a href="index.html">Terms and conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-3-div">
+          <p class="footer-subheading">Courses</p>
+          <ul>
+            <li><a href="index.html">Java</a></li>
+            <li><a href="index.html">C++</a></li>
+            <li><a href="index.html">Python</a></li>
+            <li><a href="index.html">Web Dev</a></li>
+            <li><a href="index.html">Data Science</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-5-div">
+          <p class="footer-subheading">Explore</p>
+          <ul>
+            <li><a href="index.html">Job-A-Thon Hiring Challenge</a></li>
+            <li><a href="index.html">Weekly Contest</a></li>
+            <li><a href="index.html">Placement Training Program</a></li>
+            <li><a href="index.html">All Cheat Sheets</a></li>
+            <li><a href="index.html">Recent Articles</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
